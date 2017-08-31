@@ -1,0 +1,12 @@
+<div class='container'>
+  <form action='/update_apply/<%=@one_post.id%>' method='POST'>
+    <div class='form-group'>
+      <label>title</label>
+      <input name='title' type='text' value='<%=@one_post.title%>'>
+      <label>content</label>
+      <input name='content' type='text' value='<%=@one_post.content%>'>
+    </div>
+    <button type='submit' class='btn btn-default'>apply</button>
+  </form>
+</div>
+
